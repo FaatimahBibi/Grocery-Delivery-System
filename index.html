@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Nature's Basket</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <img src="images/Composición flat lay de verduras con copyspace _ Foto Gratis.jpeg" alt="Fresh Groceries" class="banner-image">
+    <div class="banner-content">
+      <h2>Welcome to Nature's Basket</h2>
+      <p>Where Fresh groceries delivered to your doorstep.</p>
+      <button onclick="alert('Start Shopping!')">Shop Now</button>
+    </div>
+  </section>
+
+
+
+  <div>
+    <section id="Products" class="Mart">
+      <h1>Pick Your Item</h1>
+     
+     
+
+      
+     
+      <div class="calculator-container" id="product-list">
+        <!-- Product cards dynamically added here via JavaScript -->
+      </div>
+  </section>
+
+
+
+
+
+  <section class="calculator-section">
+    <div class="calculator-container">
+        <div class="calculator-card">
+            <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+            <h2>Adam's Salted Butter 50g</h2>
+            <p>Rs.200.00</p>
+            <a href="#" class="calculator-button">Add to cart</a>
+        </div>
+        <div class="calculator-card">
+            <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+            <h2>Melon-Kharbooza 500g-600g Piece</h2>
+            <p>Rs.400.00</p>
+            <a href="#" class="calculator-button">Add to cart</a>
+        </div>
+        <div class="calculator-card">
+            <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+            <h2>Orangr-kinnu half Dozen</h2>
+            <p>Rs.340.00</p>
+            <a href="#" class="calculator-button">Add to cart</a>
+        </div>
+        <div class="calculator-card">
+            <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+            <h2>Cucumber-Kheera 1kg</h2>
+            <p>Rs.100.00</p>
+            <a href="#" class="calculator-button">Add to cart</a>
+        </div>
+        <div class="calculator-card">
+          <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+          <h2>Knorr Noodles Chat Patta 6 Packets 300g</h2>
+          <p>Rs.290.00</p>
+          <a href="#" class="calculator-button">Add to cart</a>
+      </div>
+
+    <div class="calculator-card">
+      <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+      <h2>Super Crisps Chips BBQ</h2>
+      <p>Rs.60.00</p>
+      <a href="#" class="calculator-button">Add to cart</a>
+  </div>
+  
+    </div>
+
+    <section class="calculator-section">
+      <div class="calculator-container">
+          <div class="calculator-card">
+              <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+              <h2>Olper's Full Cream Milk 1000ml </h2>
+              <p>Rs.360.00</p>
+              <a href="#" class="calculator-button">Add to cart</a>
+          </div>
+          <div class="calculator-card">
+              <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+              <h2>K&N's Chicken Standard Cut 1Kg</h2>
+              <p>Rs.799.00</p>
+              <a href="#" class="calculator-button">Add to cart</a>
+          </div>
+          <div class="calculator-card">
+              <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+              <h2>Fresh Eggs 12 Pieces</h2>
+              <p>Rs.325.00</p>
+              <a href="#" class="calculator-button">Add to cart</a>
+          </div>
+          <div class="calculator-card">
+              <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+              <h2>Potato Aalu Medium (Okara) 1Kg</h2>
+              <p>Rs.102.00</p>
+              <a href="#" class="calculator-button">Add to cart</a>
+          </div>
+          <div class="calculator-card">
+            <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+            <h2>Nescafe Pet Bottle Spanish Lattee 220ml</h2>
+            <p>Rs.171.00</p>
+            <a href="#" class="calculator-button">Add to cart</a>
+        </div>
+        <div class="calculator-card">
+          <div class="calculator-icon"><img src="Assets/images/image.png" alt="" width="50px"></div>
+          <h2>Vim Dishwashing Powder Lemon 400g</h2>
+          <p>Rs.77.00</p>
+          <a href="#" class="calculator-button">Add to cart</a>
+      </div>
+      </div>
+
+
+
+
+
+
+      <section id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p id="cart-total">Total: Rs. 0</p>
+        <button id="checkout-button">Checkout</button>
+      </section>
+
+
+
+
+
+
+<div>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p> <h3>Welcome to Nature’s Basket</h3>
+      <section id="pera" class="pera"> Your go-to online grocery delivery platform committed to bringing the finest and freshest produce right to your doorstep.
+        We believe in the harmony of nature and convenience, making healthy living easier for everyone.
+        At Nature’s Basket, we take pride in offering a wide selection of fresh fruits, vegetables, organic staples, dairy, bakery items, and everyday essentials. Sourced directly from trusted farmers and suppliers, our products meet the highest quality standards to ensure you get the best for your family.</p> </section>
+      
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Grocery Delivery. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</div>
